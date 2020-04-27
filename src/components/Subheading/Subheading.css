@@ -1,0 +1,11 @@
+.subheading {
+  width: 100%;
+}
+
+@media (min-width: 110px) and (max-width: 500px) {
+  .subheading {
+    font-size: 10px;
+    letter-spacing: 0px;
+    text-align: justify;
+  }
+}

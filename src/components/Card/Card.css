@@ -1,0 +1,16 @@
+.card_wrapper {
+  font-size: 40px;
+  font-weight: 800;
+  word-break: break-word;
+}
+
+.card_wrapper a {
+  color: black;
+}
+
+@media (min-width: 110px) and (max-width: 500px) {
+  .card_wrapper {
+    font-size: 22px;
+    margin: 0px 0px 10px;
+  }
+}
